@@ -16,8 +16,8 @@ function App() {
     <div className="App">
       <Map
         center={center}
-        zoom={10}
-        style={{ height: "400px", width: "400px" }}
+        zoom={8}
+        style={{ height: "100vh", width: "100vw" }}
       >
         <TileLayer
           attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
